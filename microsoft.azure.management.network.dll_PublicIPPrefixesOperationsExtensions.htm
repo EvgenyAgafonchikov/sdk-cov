@@ -17,11 +17,11 @@
 <tr><th>Class:</th><td>Microsoft.Azure.Management.Network.PublicIPPrefixesOperationsExtensions</td></tr>
 <tr><th>Assembly:</th><td>microsoft.azure.management.network.dll</td></tr>
 <tr><th>File(s):</th><td><a href="#D0PSEAazurepowershellsrcResourceManagerNetworkManagementNetworkGeneratedPublicIPPrefixesOperationsExtensionscs" data-ng-click="navigateToHash('#D0PSEAazurepowershellsrcResourceManagerNetworkManagementNetworkGeneratedPublicIPPrefixesOperationsExtensionscs')">D:\0PS\EA\azure-powershell\src\ResourceManager\Network\Management.Network\Generated\PublicIPPrefixesOperationsExtensions.cs</a></td></tr>
-<tr><th>Covered lines:</th><td>12</td></tr>
-<tr><th>Uncovered lines:</th><td>3</td></tr>
+<tr><th>Covered lines:</th><td>15</td></tr>
+<tr><th>Uncovered lines:</th><td>0</td></tr>
 <tr><th>Coverable lines:</th><td>15</td></tr>
 <tr><th>Total lines:</th><td>459</td></tr>
-<tr><th>Line coverage:</th><td>80%</td></tr>
+<tr><th>Line coverage:</th><td>100%</td></tr>
 </tbody>
 </table>
 <h1>Metrics</h1>
@@ -31,7 +31,7 @@
 <tr><td title="Delete(Microsoft.Azure.Management.Network.IPublicIPPrefixesOperations, string, string)">Delete(Microsoft.Azure.Management.Network.IPublicIPPrefixesOperations, string, string)</td><td>4</td><td>0</td></tr>
 <tr><td title="Get(Microsoft.Azure.Management.Network.IPublicIPPrefixesOperations, string, string, string)">Get(Microsoft.Azure.Management.Network.IPublicIPPrefixesOperations, string, string, string)</td><td>5</td><td>0</td></tr>
 <tr><td title="CreateOrUpdate(Microsoft.Azure.Management.Network.IPublicIPPrefixesOperations, string, string, Microsoft.Azure.Management.Network.Models.PublicIPPrefix)">CreateOrUpdate(Microsoft.Azure.Management.Network.IPublicIPPrefixesOperations, string, string, Microsoft.Azure.Management.Network.Models.PublicIPPrefix)</td><td>5</td><td>0</td></tr>
-<tr><td title="ListAll(Microsoft.Azure.Management.Network.IPublicIPPrefixesOperations)">ListAll(Microsoft.Azure.Management.Network.IPublicIPPrefixesOperations)</td><td>0</td><td>5</td></tr>
+<tr><td title="ListAll(Microsoft.Azure.Management.Network.IPublicIPPrefixesOperations)">ListAll(Microsoft.Azure.Management.Network.IPublicIPPrefixesOperations)</td><td>5</td><td>0</td></tr>
 <tr><td title="List(Microsoft.Azure.Management.Network.IPublicIPPrefixesOperations, string)">List(Microsoft.Azure.Management.Network.IPublicIPPrefixesOperations, string)</td><td>5</td><td>0</td></tr>
 </tbody>
 </table>
@@ -245,9 +245,9 @@
 <tr data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line203"></a><code>203</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;The&nbsp;operations&nbsp;group&nbsp;for&nbsp;this&nbsp;extension&nbsp;method.</code></td></tr>
 <tr data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line204"></a><code>204</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;&lt;/param&gt;</code></td></tr>
 <tr data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line205"></a><code>205</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;public&nbsp;static&nbsp;IPage&lt;PublicIPPrefix&gt;&nbsp;ListAll(this&nbsp;IPublicIPPrefixesOperations&nbsp;operations)</code></td></tr>
-<tr data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line206"></a><code>206</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
-<tr data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line207"></a><code>207</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;operations.ListAllAsync().GetAwaiter().GetResult();</code></td></tr>
-<tr data-coverage="{'AllTestMethods': {'VC': '0', 'LVS': 'red'}}"><td class="red">&nbsp;</td><td class="leftmargin rightmargin right">0</td><td class="rightmargin right"><a id="file0_line208"></a><code>208</code></td><td></td><td class="lightred"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
+<tr data-coverage="{'AllTestMethods': {'VC': '1', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">1</td><td class="rightmargin right"><a id="file0_line206"></a><code>206</code></td><td></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;{</code></td></tr>
+<tr data-coverage="{'AllTestMethods': {'VC': '1', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">1</td><td class="rightmargin right"><a id="file0_line207"></a><code>207</code></td><td></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;return&nbsp;operations.ListAllAsync().GetAwaiter().GetResult();</code></td></tr>
+<tr data-coverage="{'AllTestMethods': {'VC': '1', 'LVS': 'green'}}"><td class="green">&nbsp;</td><td class="leftmargin rightmargin right">1</td><td class="rightmargin right"><a id="file0_line208"></a><code>208</code></td><td></td><td class="lightgreen"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;}</code></td></tr>
 <tr data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line209"></a><code>209</code></td><td></td><td class="lightgray"><code></code></td></tr>
 <tr data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line210"></a><code>210</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;&lt;summary&gt;</code></td></tr>
 <tr data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line211"></a><code>211</code></td><td></td><td class="lightgray"><code>&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;///&nbsp;Gets&nbsp;all&nbsp;the&nbsp;public&nbsp;IP&nbsp;prefixes&nbsp;in&nbsp;a&nbsp;subscription.</code></td></tr>
@@ -501,7 +501,7 @@
 <tr data-coverage="{'AllTestMethods': {'VC': '', 'LVS': 'gray'}}"><td class="gray">&nbsp;</td><td class="leftmargin rightmargin right"></td><td class="rightmargin right"><a id="file0_line459"></a><code>459</code></td><td></td><td class="lightgray"><code>}</code></td></tr>
 </tbody>
 </table>
-<div class="footer">Generated by: ReportGenerator 3.1.2.0<br />11/23/2018 - 1:38:58 PM<br /><a href="https://github.com/danielpalme/ReportGenerator">GitHub</a> | <a href="http://www.palmmedia.de">www.palmmedia.de</a></div></div>
+<div class="footer">Generated by: ReportGenerator 3.1.2.0<br />12/11/2018 - 10:35:37 AM<br /><a href="https://github.com/danielpalme/ReportGenerator">GitHub</a> | <a href="http://www.palmmedia.de">www.palmmedia.de</a></div></div>
 <div class="containerright">
 <div class="containerrightfixed">
 <h1>Methods/Properties</h1>
